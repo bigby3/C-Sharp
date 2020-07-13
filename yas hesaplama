@@ -1,0 +1,5 @@
+            Console.WriteLine("Lütfen doğum tarihinizi giriniz");
+            int yil = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Yaşınız" + DateTime.Now.Year +"-"+yil+"="+(DateTime.Now.Year-yil));
+            Console.ReadLine();
+            
