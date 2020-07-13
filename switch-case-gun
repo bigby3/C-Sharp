@@ -1,0 +1,29 @@
+            Console.WriteLine("Kaçıncı günü öğrenmek istediğinizi yaznırz");
+            int gun = Convert.ToInt32(Console.ReadLine());
+            switch (gun)
+            {
+                case 1:
+                    Console.WriteLine("1.gün pazartesidir");
+                    break;
+                case 2:
+                    Console.WriteLine("2.gün salıdır");
+                    break;
+                case 3:
+                    Console.WriteLine("3.gün çarşambadır");
+                    break;
+                case 4:
+                    Console.WriteLine("4.gün perşembedir");
+                    break;
+                case 5:
+                    Console.WriteLine("5.gün cumadır");
+                    break;
+                case 6:
+                    Console.WriteLine("6.gün cumartesidir");
+                    break;
+                case 7:
+                    Console.WriteLine("7.gün pazardır");
+                    break;
+                default:
+                    Console.WriteLine("Lütfen geçerli bir sayı giriniz");
+                    break;
+            }
