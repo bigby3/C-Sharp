@@ -1,0 +1,16 @@
+            ConsoleKeyInfo KeyInfo = default(ConsoleKeyInfo);
+            string password = "";
+            do
+            {
+                KeyInfo = Console.ReadKey(true);
+                if (KeyInfo.Key !=ConsoleKey.Backspace)
+                {
+                    password += KeyInfo.KeyChar;
+                    Console.Write("*");
+                }
+                
+            } while (!(KeyInfo.Key==ConsoleKey.Enter));
+            Console.WriteLine();
+            Console.WriteLine("Girilen şifre:" + password);
+            Console.Readline();
+            
