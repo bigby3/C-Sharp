@@ -1,0 +1,20 @@
+ // CONSOL EKRANINI KONUMLANDIRMA
+
+            Console.SetWindowSize(30, 15);
+            Console.SetCursorPosition(Console.WindowWidth / 2, Console.WindowHeight / 2);
+            Console.WriteLine("C#");
+            Console.ReadLine();
+            
+            
+ // CONSOL UYGULAMALARINDAN ÇIKIŞ
+
+            Console.WriteLine("Çıkmak istediğinize emin misiniz?");
+            string cevap = Console.ReadLine();
+            if (cevap=="Evet")
+            {
+                Environment.Exit(0);
+            }
+            else
+            {
+                Console.WriteLine("Devam");
+            }
