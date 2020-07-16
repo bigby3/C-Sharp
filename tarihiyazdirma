@@ -1,0 +1,21 @@
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Program nsn_tarih = new Program();
+            Console.ReadLine();  
+        }
+        readonly DateTime tarih;
+        public Program()
+        {
+            tarih = DateTime.Now;
+            Console.WriteLine(tarih);
+        }
+    }
+}
+
+
+         
