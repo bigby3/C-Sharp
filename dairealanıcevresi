@@ -1,0 +1,25 @@
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const double pi = 3.14;
+            double alan, cevre, yaricap;
+            Console.Write("Lütfen yarıçapı giriniz:");
+            yaricap = Convert.ToInt32(Console.ReadLine());
+            cevre = pi * 2 * yaricap;
+            alan = pi * (Math.Pow(yaricap,2));
+            Console.WriteLine("Dairenin çevresi(cm):" + cevre);
+            Console.WriteLine("Dairenin alanı(cm):" + alan);
+            Console.ReadLine();
+
+
+
+           
+
+
+   
+        }
+    }
+}
